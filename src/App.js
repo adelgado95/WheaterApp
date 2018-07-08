@@ -45,15 +45,15 @@ class App extends Component {
   render() {
     return (
       <MuiThemeProvider theme={theme}>
-      <Grid fluid>
-        <Row xs={12}>
-            <AppBar position='static' color="primary" styles={styles}>
+        <AppBar position='static' color="primary" styles={styles}>
               <Toolbar>
                 <Typography variant="title" color="inherit">
                     Title
                 </Typography>
               </Toolbar>
             </AppBar>
+      <Grid fluid>
+        <Row xs={12}>
         </Row>
         <Row>
           <Col xs={12} md={6}>
